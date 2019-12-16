@@ -274,6 +274,12 @@ call s:h("debugBreakpoint", { "fg": s:black, "bg": s:red }) " a breakpoint
 
 " }}}
 
+" ALE (Asynchronous Lint Engine) {{{
+call s:h("ALEError", { "fg": s:red, "gui": "underline", "cterm": "underline" }) " Highligh error as red.
+call s:h("ALEWarning", { "gui": "underline", "cterm": "underline" })  " Underline for warning
+call s:h("ALEInfo", { "gui": "underline", "cterm": "underline" }) " Underline for info tips.
+" }}}
+
 " Language-Specific Highlighting {{{
 
 " CSS
