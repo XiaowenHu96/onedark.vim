@@ -278,6 +278,9 @@ call s:h("debugBreakpoint", { "fg": s:black, "bg": s:red }) " a breakpoint
 call s:h("ALEError", { "fg": s:red, "gui": "underline", "cterm": "underline" }) " Highligh error as red.
 call s:h("ALEWarning", { "gui": "underline", "cterm": "underline" })  " Underline for warning
 call s:h("ALEInfo", { "gui": "underline", "cterm": "underline" }) " Underline for info tips.
+call s:h("ALEErrorSign", { "fg": s:red })
+call s:h("ALEWarningSign", { "fg": s:yellow } )  " Underline for warning
+call s:h("ALEInfoSign", { "fg": s:blue } ) 
 " }}}
 
 " Language-Specific Highlighting {{{
